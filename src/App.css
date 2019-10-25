@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+.words {
+  font-size: 75px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  background-color: blueviolet;
+}
+
+.imgHolder {
+  position: absolute;
+  width: 80%;
+  margin: 4% 10% 5% 10%;
+}
+
+.imgHolder img {
+  position: absolute;
+  width: 100%;
+}
+
+.imgHolder .imgWrapperTop {
+  width: 100%;
+  position: relative;
+  margin-top: -40%;
+}
+
+.imgHolder .imgWrapperBottom {
+  width: 100%;
+  position: relative;
+  margin-bottom: -40%;
+}
+
+.imgWrapperTop h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 3vw;
+}
+
+.imgWrapperBottom h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 3vw;
+}
